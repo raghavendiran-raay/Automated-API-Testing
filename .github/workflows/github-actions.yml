@@ -16,7 +16,6 @@ jobs:
           down-flags: "--volumes"
           services: |
             app
-            mongo
           test-container: app
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
