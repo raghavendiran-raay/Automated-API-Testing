@@ -10,11 +10,13 @@ def greeting():
 
 @app.route('/calculator/add', methods=['POST','GET'])
 def add():
+    # write your code here...
     return ""
 
 
 @app.route('/calculator/subtract', methods=['POST','GET'])
 def subtract():
+    # write your code here...
     return ""
 
 if __name__ == '__main__':
